@@ -1,5 +1,4 @@
-const desktopApp = require("./Desktop/Electron.js");
-const ipcMain = require("./Desktop/ipcMain.js")
+const ElectronStartup = require("./ElectronApp/ElectronStartup.js");
 
-desktopApp()
-ipcMain()
+ElectronStartup()
+

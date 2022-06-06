@@ -1,5 +1,5 @@
 {
-  "name": "ultimatecardgame",
+  "name": "TTRPG_Generic_Platform",
   "version": "1.0.0",
   "description": "",
   "main": "./Src/Main.js",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.20.0",
     "ejs": "^3.1.7",
     "express": "^4.17.3",

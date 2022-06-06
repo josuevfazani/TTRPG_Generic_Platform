@@ -23,15 +23,5 @@ contextBridge.exposeInMainWorld('electron', {
             err = new Error("Send channel not allowed")
             console.error(err);
         }
-    },
-    import: (file) => {
-        const allowedFiles = []
-
-        if (allowedFiles.includes(file)) {
-            return require(file)
-        } else {
-            err = new Error("This file is not allowed to be imported")
-            console.error(err);
-        }
     }
 })
